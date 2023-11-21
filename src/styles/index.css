@@ -1,12 +1,50 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.containerEstilo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+    width: 500px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .entradaFormulario {
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+  }
+  
+  .listaDeTareas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .elementoDeTarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:400px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 5px 3px 15px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .textoTarea {
+    flex: 1;
+  }
+  
+  .btnEliminar {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
